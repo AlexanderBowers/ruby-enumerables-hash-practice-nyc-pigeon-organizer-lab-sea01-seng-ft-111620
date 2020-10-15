@@ -51,7 +51,7 @@ pigeon_list.each do |name, value|
     end
  end
 
-
+end
 #I now have a hash where every unique name is pointing to an empty hash.
 #I now have every description within nested arrays
 
