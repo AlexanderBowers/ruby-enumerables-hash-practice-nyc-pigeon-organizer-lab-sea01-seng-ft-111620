@@ -1,11 +1,11 @@
 require 'pry'
-def nyc_pigeon_organizer(pigeon_data)
+def nyc_pigeon_organizer(data)
   pigeon_list = {}
   name_array = []
   color_array = []
   gender_array = []
   lives_array = []
-  data_in_array = pigeon_data.to_a
+  data_in_array = data.to_a
   data_in_array.each do |general|
     general[1].to_a
     general[1].each do |specific|
